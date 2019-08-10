@@ -10,8 +10,11 @@ sudo <program_to_execute>
 ```
 will launch <program_to_execute> in the same command processor, but with elevated rights. After the command terminates, the next command will be executed under "normal" rights again. The output of the executed program will remain visible. Instead of being asked for your password, the "Confirm Admin rights" window will pop up.
 
-# Build & Install
-Pretty straightforward, use VS2017 Community, open the contained soulution file and compile it. For better accessibility, move the executable to some location which is referenced in your PATH system variable. As this program does some stuff with elevated rights, some anti-virus programs moan about it.
+# Binaries ("Download") / Installation
+Here you go: https://ci.appveyor.com/project/hst125fan/sudo-exe/build/artifacts. For better accessibility, move the executable to some location which is referenced in your PATH system variable. As this program does some stuff with elevated rights, some anti-virus programs moan about it. Don't trust me (or the CI)? Read the source code and build it yourself ... see below.
+
+# Build
+Pretty straightforward, use VS2017 Community, open the contained soulution file and compile it. 
 
 # Limitations
 * Some long outputs or especially pre-formatted outputs which are created with direct access to the command handles (such as "dir") do not work properly, their output appears truncated.
