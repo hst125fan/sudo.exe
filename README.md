@@ -3,6 +3,7 @@ The popular Unix/Linux command sudo for Windows - well, sort of.
 
 ![some picture, if not visible just ignore](https://i.imgur.com/DQNtMJi.png)
 
+![AppVeyor](https://img.shields.io/appveyor/ci/hst125fan/sudo-exe?style=plastic&logo=appveyor)
 "sudo" command (do as super-user) for Windows' command prompt. Usually, when using a command line utility which needs elevated privileges, you'll need to open a new instance of the command processor via the system menu. There are also tools which make this process easier, but these usually still open a new command processor window, which means you have to re-type the command (or try to copy it, which is comparable horrible) instead of just using the "up" key and adding the "sudo" command, as one does on Linux.
 This little program wants to help. It works pretty much just as Linux'es sudo:
 ```
