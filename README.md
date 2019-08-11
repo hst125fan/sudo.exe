@@ -19,5 +19,5 @@ Pretty straightforward, use VS2017 Community, open the contained soulution file 
 # Limitations
 * Some long outputs or especially pre-formatted outputs which are created with direct access to the command handles (such as "dir") do not work properly, their output appears truncated.
 * The program can aswell be used from a bash-port (MinGW, cygwin), but will not be able to access Linux system commands provided within these command processors (such as ls, rm, mv).  
-* ``` sudo sudo ``` will not work (obviously) 
+* ``` sudo sudo ``` will not work (obviously)
   
